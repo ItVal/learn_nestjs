@@ -5,4 +5,8 @@ export class AuthService {
   signup(signupDto: SignupDto) {
     return 'signup';
   }
+
+  login() {
+    return 'login';
+  }
 }
